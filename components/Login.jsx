@@ -60,6 +60,11 @@ const Login = () => {
         ) 
         }
       </form>
+      <Link href="/register">
+        <button className="btn">
+            Register
+        </button>
+      </Link>
     </div>
   )
 }
